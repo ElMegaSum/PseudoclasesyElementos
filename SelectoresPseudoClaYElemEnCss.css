@@ -1,0 +1,20 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.boton::before{
+    content: 'Pasa por Encima';
+    font-size: xx-large;
+}
+.boton:hover{
+    color: white;
+    background-color: green;
+    cursor: pointer;
+}
+.boton:hover::before{
+    content: '¡Hecho!';
+    font-size: xx-large;
+}
